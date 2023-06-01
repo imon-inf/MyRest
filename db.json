@@ -1,30 +1,181 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" },
-      { "id": 2, "title": "Make a Json server", "author": "other" },
-      { "id": 3, "title": "and live", "author": "karma" }
-    ],
-    "comments": [
-      { "id": 1, "body": "Guauu", "postId": 1 },
-      { "id": 2, "body": "Amazing", "postId": 2 },
-      { "id": 3, "body": "yeah", "postId": 2 },
-      { "id": 4, "body": "I need that", "postId": 2 },
-      { "id": 5, "body": "Goods words", "postId": 3 },
-      { "id": 6, "body": "Yesterday", "postId": 3 }
-    ],
-    "profile": [
-        { "id": 1, "name": "admin", "filetype": 
-        [
-            {"id":1, "file":"pdf"},
-            {"id":2, "file":"doc"},
-            {"id":3, "file":"txt"}
-        ] },
-        { "id": 2, "name": "user", "filetype": 
-        [
-            {"id":1, "file":"png"},
-            {"id":2, "file":"jpg"},
-            {"id":3, "file":"gif"}
-        ] }
-
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "Make a Json server",
+      "author": "other"
+    },
+    {
+      "id": 3,
+      "title": "and live",
+      "author": "karma"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Guauu",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "Amazing",
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "body": "yeah",
+      "postId": 2
+    },
+    {
+      "id": 4,
+      "body": "I need that",
+      "postId": 2
+    },
+    {
+      "id": 5,
+      "body": "Goods words",
+      "postId": 3
+    },
+    {
+      "id": 6,
+      "body": "Yesterday",
+      "postId": 3
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "name": "admin",
+      "filetype": [
+        {
+          "id": 1,
+          "file": "pdf"
+        },
+        {
+          "id": 2,
+          "file": "doc"
+        },
+        {
+          "id": 3,
+          "file": "txt"
+        }
       ]
-  }
+    },
+    {
+      "id": 2,
+      "name": "user",
+      "filetype": [
+        {
+          "id": 1,
+          "file": "png"
+        },
+        {
+          "id": 2,
+          "file": "jpg"
+        },
+        {
+          "id": 3,
+          "file": "gif"
+        }
+      ]
+    }
+  ],
+  "affiliated": [
+    {
+      "id": 1,
+      "name": "casual",
+      "rules": [
+        {
+          "id": 1,
+          "style": "hard",
+          "forbidden": [
+            {
+              "action": "spit"
+            },
+            {
+              "duration": 8
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "style": "soft",
+          "forbidden": [
+            {
+              "action": "run"
+            },
+            {
+              "duration": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "regular",
+      "rules": [
+        {
+          "id": 1,
+          "style": "hard",
+          "forbidden": [
+            {
+              "action": "spit"
+            },
+            {
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "style": "soft",
+          "forbidden": [
+            {
+              "action": "run"
+            },
+            {
+              "duration": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "intense",
+      "rules": [
+        {
+          "id": 1,
+          "style": "hard",
+          "forbidden": [
+            {
+              "action": "kick"
+            },
+            {
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "style": "medium",
+          "forbidden": [
+            {
+              "action": "jump"
+            },
+            {
+              "duration": 9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
