@@ -1,181 +1,272 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 2,
-      "title": "Make a Json server",
-      "author": "other"
-    },
-    {
-      "id": 3,
-      "title": "and live",
-      "author": "karma"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "Guauu",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "Amazing",
-      "postId": 2
-    },
-    {
-      "id": 3,
-      "body": "yeah",
-      "postId": 2
-    },
-    {
-      "id": 4,
-      "body": "I need that",
-      "postId": 2
-    },
-    {
-      "id": 5,
-      "body": "Goods words",
-      "postId": 3
-    },
-    {
-      "id": 6,
-      "body": "Yesterday",
-      "postId": 3
-    }
-  ],
-  "profile": [
-    {
-      "id": 1,
-      "name": "admin",
-      "filetype": [
+    "posts": [
         {
-          "id": 1,
-          "file": "pdf"
+            "id": 1,
+            "title": "json-server",
+            "author": "typicode"
         },
         {
-          "id": 2,
-          "file": "doc"
+            "id": 2,
+            "title": "Make a Json server",
+            "author": "other"
         },
         {
-          "id": 3,
-          "file": "txt"
+            "id": 3,
+            "title": "and live",
+            "author": "karma"
         }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "user",
-      "filetype": [
+    ],
+    "comments": [
         {
-          "id": 1,
-          "file": "png"
+            "id": 1,
+            "body": "Guauu",
+            "postId": 1
         },
         {
-          "id": 2,
-          "file": "jpg"
+            "id": 2,
+            "body": "Amazing",
+            "postId": 2
         },
         {
-          "id": 3,
-          "file": "gif"
+            "id": 3,
+            "body": "yeah",
+            "postId": 2
+        },
+        {
+            "id": 4,
+            "body": "I need that",
+            "postId": 2
+        },
+        {
+            "id": 5,
+            "body": "Goods words",
+            "postId": 3
+        },
+        {
+            "id": 6,
+            "body": "Yesterday",
+            "postId": 3
         }
-      ]
-    }
-  ],
-  "affiliated": [
-    {
-      "id": 1,
-      "name": "casual",
-      "rules": [
+    ],
+    "profile": [
         {
-          "id": 1,
-          "style": "hard",
-          "forbidden": [
-            {
-              "action": "spit"
-            },
-            {
-              "duration": 8
-            }
-          ]
+            "id": 1,
+            "name": "admin",
+            "filetype": [
+                {
+                    "id": 1,
+                    "file": "pdf"
+                },
+                {
+                    "id": 2,
+                    "file": "doc"
+                },
+                {
+                    "id": 3,
+                    "file": "txt"
+                }
+            ]
         },
         {
-          "id": 2,
-          "style": "soft",
-          "forbidden": [
-            {
-              "action": "run"
-            },
-            {
-              "duration": 9
-            }
-          ]
+            "id": 2,
+            "name": "user",
+            "filetype": [
+                {
+                    "id": 1,
+                    "file": "png"
+                },
+                {
+                    "id": 2,
+                    "file": "jpg"
+                },
+                {
+                    "id": 3,
+                    "file": "gif"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "regular",
-      "rules": [
+    ],
+    "affiliated": [
         {
-          "id": 1,
-          "style": "hard",
-          "forbidden": [
-            {
-              "action": "spit"
-            },
-            {
-              "duration": 2
-            }
-          ]
+            "id": 1,
+            "name": "casual",
+            "rules": [
+                {
+                    "id": 1,
+                    "style": "hard",
+                    "forbidden": [
+                        {
+                            "action": "spit"
+                        },
+                        {
+                            "duration": 8
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "style": "soft",
+                    "forbidden": [
+                        {
+                            "action": "run"
+                        },
+                        {
+                            "duration": 9
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "id": 2,
-          "style": "soft",
-          "forbidden": [
-            {
-              "action": "run"
-            },
-            {
-              "duration": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "intense",
-      "rules": [
-        {
-          "id": 1,
-          "style": "hard",
-          "forbidden": [
-            {
-              "action": "kick"
-            },
-            {
-              "duration": 5
-            }
-          ]
+            "id": 2,
+            "name": "regular",
+            "rules": [
+                {
+                    "id": 1,
+                    "style": "hard",
+                    "forbidden": [
+                        {
+                            "action": "spit"
+                        },
+                        {
+                            "duration": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "style": "soft",
+                    "forbidden": [
+                        {
+                            "action": "run"
+                        },
+                        {
+                            "duration": 1
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "id": 2,
-          "style": "medium",
-          "forbidden": [
-            {
-              "action": "jump"
-            },
-            {
-              "duration": 9
-            }
-          ]
+            "id": 3,
+            "name": "intense",
+            "rules": [
+                {
+                    "id": 1,
+                    "style": "hard",
+                    "forbidden": [
+                        {
+                            "action": "kick"
+                        },
+                        {
+                            "duration": 5
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "style": "medium",
+                    "forbidden": [
+                        {
+                            "action": "jump"
+                        },
+                        {
+                            "duration": 9
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ],
+    "FDX": [
+        {
+            "HEADER": {
+                "Selecciona": "0",
+                "seleccionado": "0",
+                "selecciones": [
+                    {
+                        "campo": "TRABAJO",
+                        "valida": "+1+2+3+TRABAJO-OCIO=MEV"
+                    },
+                    {
+                        "campo": "USUARIO",
+                        "operador": "Equal",
+                        "valor": "987654",
+                        "operadores": "Equal",
+                        "valida": "+usa+utiliza-rompe-salva"
+                    }
+                ]
+            },
+            "ROWS": [
+                {
+                    "trabajos": [
+                        {
+                            "trabajo": "546521-1",
+                            "manufacto": "soldaditos de plomo",
+                            "duracion": "35+-2",
+                            "recibe": "8950"
+                        },
+                        {
+                            "trabajo": "34415-1",
+                            "manufacto": "soldaditos de plomo",
+                            "duracion": "415-382",
+                            "recibe": "360"
+                        },
+                        {
+                            "trabajo": "743674-1",
+                            "manufacto": "soldaditos de plomo",
+                            "duracion": "555-18",
+                            "recibe": "1200"
+                        },
+                        {
+                            "trabajo": "06585-1",
+                            "manufacto": "soldaditos de plomo",
+                            "duracion": "95474-516",
+                            "recibe": "70"
+                        },
+                        {
+                            "trabajo": "7454378-1",
+                            "manufacto": "formas plasticas",
+                            "duracion": "95+05134-192",
+                            "recibe": "50"
+                        },
+                        {
+                            "trabajo": "56858-1",
+                            "manufacto": "formas plasticas",
+                            "duracion": "9-5",
+                            "recibe": "200"
+                        },
+                        {
+                            "trabajo": "32576-1",
+                            "manufacto": "puentes de papel",
+                            "duracion": "0545454+6",
+                            "recibe": "350"
+                        },
+                        {
+                            "trabajo": "14680567-1",
+                            "manufacto": "formas plasticas",
+                            "duracion": "54515+65",
+                            "recibe": "500"
+                        },
+                        {
+                            "trabajo": "987105-1",
+                            "manufacto": "puentes de papel",
+                            "duracion": "MAS-MENOS-5",
+                            "recibe": "300"
+                        }
+                    ]
+                },
+                {
+                    "trabajos": [
+                        {
+                            "trabajo": "374550-2",
+                            "manufacto": "rotuladores",
+                            "duracion": "65",
+                            "recibe": "700"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
