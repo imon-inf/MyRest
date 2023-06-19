@@ -266,6 +266,78 @@
                         }
                     ]
                 }
+            ],            
+            "ROWS-B": [
+                {
+                    "referencia": "belladonna",
+                    "trabajos": [
+                        {
+                            "trabajo": "546521-1",
+                            "manufacto": "soldaditos de plomo",
+                            "duracion": "35+-2",
+                            "recibe": "8950"
+                        },
+                        {
+                            "trabajo": "34415-1",
+                            "manufacto": "soldaditos de plomo",
+                            "duracion": "415-382",
+                            "recibe": "360"
+                        },
+                        {
+                            "trabajo": "743674-1",
+                            "manufacto": "soldaditos de plomo",
+                            "duracion": "555-18",
+                            "recibe": "1200"
+                        },
+                        {
+                            "trabajo": "06585-1",
+                            "manufacto": "soldaditos de plomo",
+                            "duracion": "95474-516",
+                            "recibe": "70"
+                        },
+                        {
+                            "trabajo": "7454378-1",
+                            "manufacto": "formas plasticas",
+                            "duracion": "95+05134-192",
+                            "recibe": "50"
+                        },
+                        {
+                            "trabajo": "56858-1",
+                            "manufacto": "formas plasticas",
+                            "duracion": "9-5",
+                            "recibe": "200"
+                        },
+                        {
+                            "trabajo": "32576-1",
+                            "manufacto": "puentes de papel",
+                            "duracion": "0545454+6",
+                            "recibe": "350"
+                        },
+                        {
+                            "trabajo": "14680567-1",
+                            "manufacto": "formas plasticas",
+                            "duracion": "54515+65",
+                            "recibe": "500"
+                        },
+                        {
+                            "trabajo": "987105-1",
+                            "manufacto": "puentes de papel",
+                            "duracion": "MAS-MENOS-5",
+                            "recibe": "300"
+                        }
+                    ]
+                },
+                {
+                    "referencia": "amanita",
+                    "trabajos": [
+                        {
+                            "trabajo": "374550-2",
+                            "manufacto": "rotuladores",
+                            "duracion": "65",
+                            "recibe": "700"
+                        }
+                    ]
+                }
             ]
         }
     ]
