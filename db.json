@@ -266,7 +266,7 @@
                         }
                     ]
                 }
-            ],            
+            ],
             "ROWS-B": [
                 {
                     "referencia": "belladonna",
@@ -367,6 +367,49 @@
                     }
                 }
             ]
+        }
+    ],
+    "Magnificus": [
+        {
+            "order": [
+                {
+                    "hash": "hdjfnls8dh7e0ndcls0+svg/we*f",
+                    "orderId": "1",
+                    "fileExtension": "pdf",
+                    "name": "quijoteman"
+                }
+            ],
+            "description": "en un lugar de la mancha",
+            "delivery": {
+                "name": "albacete"
+            },
+            "works": {
+                "Ateam": [
+                    {
+                        "textocorto": "ya",
+                        "teamid": "288",
+                        "roleName": "caballero"
+                    }
+                ],
+                "Bteam": [
+                    {
+                        "tabs": {
+                            "certs": [
+                                {
+                                    "certid": "75",
+                                    "pageNumber": "3",
+                                    "horizon": "42",
+                                    "altur": "2"
+                                }
+                            ]
+                        },
+                        "textocortoB": "esta",
+                        "otroteamid": "9",
+                        "roleName": "escudero"
+                    }
+                ]
+            },
+            "status": "curso"
         }
     ]
 }
