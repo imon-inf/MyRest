@@ -371,6 +371,7 @@
     ],
     "Magnificus": [
         {
+            "Id": 1,
             "order": [
                 {
                     "hash": "hdjfnls8dh7e0ndcls0+svg/we*f",
@@ -409,8 +410,7 @@
                     }
                 ]
             },
-            "status": "curso",
-            "Id": 1
+            "status": "curso"            
         }
     ]
 }
