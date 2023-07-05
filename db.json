@@ -375,7 +375,7 @@
             "order": [
                 {
                     "hash": "hdjfnls8dh7e0ndcls0+svg/we*f",
-                    "orderId": "1",
+                    "orderId": 1,
                     "fileExtension": "pdf",
                     "name": "quijoteman"
                 }
@@ -388,7 +388,7 @@
                 "Ateam": [
                     {
                         "textocorto": "ya",
-                        "teamid": "288",
+                        "teamid": 288,
                         "roleName": "caballero"
                     }
                 ],
@@ -398,14 +398,14 @@
                             "certs": [
                                 {
                                     "certid": "75",
-                                    "pageNumber": "3",
+                                    "pageNumber": 3,
                                     "horizon": "42",
                                     "altur": "2"
                                 }
                             ]
                         },
                         "textocortoB": "esta",
-                        "otroteamid": "9",
+                        "otroteamid": 9,
                         "roleName": "escudero"
                     }
                 ]
