@@ -417,7 +417,7 @@
         {
             "posicionA" : "Nada por aqui",
             "posicionB" : "Nada por alla",
-            "posiciones" : [
+            "6_posiciones" : [
                 {
                     "1_arriba": "masuno",
                     "2_abajo": "menosdos"}
